@@ -4,3 +4,7 @@ This repository contains code for an ESP32 WiFI enabled over-the-air (OTA) proto
 Each microcontroller node can serve a unique purpose and listen for updated firmware from the host server. Upon an update being posted to the server, the nodes assigned that specific role will initiate an OTA update automatically.
 
 Going forward, further experimentation is underway on a protocol that uses LoRaWANN instead of WiFi for a protocol that can be served over remote areas where WiFi is unavailable. This will be accomplished with a unique TX/RX protocol involving chunking firmware binary packets and custom board design. 
+
+## Repository details
+
+This source code exists as a non-functioning skeleton of the protocol. This is a work in progress and doesn't fully function yet. The WiFi protocol has proven to work but further work is needed on the LoRaWANN OTA protocol
